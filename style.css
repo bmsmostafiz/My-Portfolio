@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Galada;
+    src: url(../fonts/Galada-Regular.ttf);
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+
+  }
+
+  #header-area{
+      display: flex;
+  }
+
+  h1{
+      font-size: 55px;
+      font-family: Galada;
+      line-height: 0;
+  }
+
+  h3{
+    font-size: 35px;
+    font-family: Galada;
+    line-height: 5px;
+    margin-bottom: 70px;
+  }
+
+  h3 span{
+      color: rgba(95, 194, 15, 0.87);
+  }
+
+  h4{
+    font-size: 28px;
+    font-family: Galada;
+    line-height: 0;
+  }
+
+  p{
+    font-size: 20px; 
+  }
+
+  .welcome a{
+      text-decoration: none;
+      background-image: linear-gradient(rgba(233, 190, 104, 0.815), rgb(114, 75, 151));
+      padding: 10px 25px;
+      color: aliceblue;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+
+
+
+  .welcome, .main-image{
+      width: 50%;
+      padding-top: 3%;
+      padding-left: 5%;
+  }
+
+
+

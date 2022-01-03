@@ -40,7 +40,7 @@
     font-size: 20px; 
   }
 
-  .welcome a{
+  .hire-me{
       text-decoration: none;
       background-image: linear-gradient(rgba(233, 190, 104, 0.815), rgb(114, 75, 151));
       padding: 10px 25px;
@@ -49,12 +49,30 @@
       border-radius: 5px;
   }
 
+  ul{
+      width: 100%;
+      padding: 0;
+      text-align: right;
+  }
+
+  ul li {
+      list-style: none;
+      display: inline-block;
+
+  }
+
+  ul li a{
+      font-size: 40px;
+      padding: 5px;
+  }
+
 
 
   .welcome, .main-image{
       width: 50%;
       padding-top: 3%;
       padding-left: 5%;
+      padding-right: 3%;
   }
 
 

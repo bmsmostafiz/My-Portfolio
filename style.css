@@ -1,5 +1,8 @@
 
-
+@font-face {
+    font-family: Galada;
+    src: url(fonts/Galada-Regular.ttf);
+}
   body{
       margin: 0;
       padding: 0;
@@ -14,12 +17,14 @@
   }
 
   .welcome h1{
+      font-family: Galada;
       font-size: 55px;
       line-height: 0;
       color: rgba(55, 41, 68, 0.836);
   }
 
   .welcome h3{
+      font-family: Galada;
     font-size: 35px;
     line-height: 5px;
     margin-bottom: 70px;
@@ -31,6 +36,7 @@
   }
 
   .welcome h4{
+      font-family: Galada;
     font-size: 28px;
     line-height: 0;
     color: rgba(55, 41, 68, 0.836);
@@ -73,6 +79,12 @@
     margin: 5px 2px;
     border-radius: 50%;
     box-shadow: 3px 2px 5px black;
+    transition: all 0.3s;
+}
+
+.fab:hover {
+    opacity: 0.7;
+    box-shadow: none;
 }
 
 .fa-facebook-f{
@@ -125,12 +137,14 @@
 }
 
 .dream h1{
+    font-family: Galada;
     font-size: 55px;
     line-height: 0;
     color: rgba(55, 41, 68, 0.836);
 }
 
 .dream h4{
+    font-family: Galada;
     font-size: 30px;
     margin-bottom: 0;
     color: rgba(55, 41, 68, 0.836);
@@ -200,6 +214,7 @@
 }
 
 .head-top h1{
+    font-family: Galada;
     font-size: 55px;
     line-height: 0;
     text-align: center;
@@ -207,11 +222,13 @@
 }
 
 .exprience-area h1{
+    font-family: Galada;
     font-size: 35px;
     color: rgba(55, 41, 68, 0.836);
 }
 
 .exprience-area h4{
+    font-family: Galada;
     font-size: 20px;
     margin-bottom: 0;
     color: rgba(55, 41, 68, 0.836);

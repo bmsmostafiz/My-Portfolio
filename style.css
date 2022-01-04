@@ -41,6 +41,17 @@
     text-align: justify;
   }
 
+  .welcome a{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(233, 190, 104, 0.815), rgb(114, 75, 151));
+    color: aliceblue;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
   .social-media{
       text-align: center;
   }

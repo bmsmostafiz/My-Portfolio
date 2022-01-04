@@ -3,6 +3,17 @@
     font-family: Galada;
     src: url(fonts/Galada-Regular.ttf);
 }
+
+@font-face {
+    font-family: Salbo;
+    src: url(fonts/Slabo27px-Regular.ttf);
+}
+
+
+
+
+
+
   body{
       margin: 0;
       padding: 0;
@@ -24,7 +35,7 @@
   }
 
   .welcome h3{
-      font-family: Galada;
+    font-family: Galada;
     font-size: 35px;
     line-height: 5px;
     margin-bottom: 70px;
@@ -32,21 +43,21 @@
   }
 
   .welcome h3 span{
-      color: rgba(95, 194, 15, 0.87);
+    color: rgba(95, 194, 15, 0.87);
   }
 
   .welcome h4{
-      font-family: Galada;
+    font-family: Galada;
     font-size: 28px;
     line-height: 0;
     color: rgba(55, 41, 68, 0.836);
   }
 
   .welcome p{
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-weight: normal;
-      font-size: 20px;
-      text-align: justify;
+    font-family: Salbo;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
   }
 
   .welcome a{
@@ -155,7 +166,7 @@
 }
 
 .dream p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Salbo;
     font-weight: normal;
     font-size: 20px;
     padding: 5px 130px 30px 0;
@@ -256,7 +267,9 @@
 }
 
 .exprience-area p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Salbo;
+    font-weight: normal;
+    font-size: 30px;
     font-weight: normal;
     font-size: 20px;
 }

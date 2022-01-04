@@ -37,7 +37,8 @@
   }
 
   .welcome p{
-    font-size: 20px; 
+    font-size: 20px;
+    text-align: justify;
   }
 
   .hire-me{

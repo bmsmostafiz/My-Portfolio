@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Galada;
-    src: url(../fonts/Galada-Regular.ttf);
-  }
+
 
   body{
       margin: 0;
@@ -18,15 +15,15 @@
 
   .welcome h1{
       font-size: 55px;
-      font-family: Galada;
       line-height: 0;
+      color: rgba(55, 41, 68, 0.836);
   }
 
   .welcome h3{
     font-size: 35px;
-    font-family: Galada;
     line-height: 5px;
     margin-bottom: 70px;
+    color: rgba(55, 41, 68, 0.836);
   }
 
   .welcome h3 span{
@@ -35,8 +32,8 @@
 
   .welcome h4{
     font-size: 28px;
-    font-family: Galada;
     line-height: 0;
+    color: rgba(55, 41, 68, 0.836);
   }
 
   .welcome p{
@@ -50,6 +47,7 @@
       color: aliceblue;
       font-weight: bold;
       border-radius: 5px;
+      font-size: 25px;
   }
 
   ul{
@@ -109,13 +107,14 @@
 
 .dream h1{
     font-size: 55px;
-    font-family: Galada;
     line-height: 0;
+    color: rgba(55, 41, 68, 0.836);
 }
 
 .dream h4{
     font-size: 30px;
     margin-bottom: 0;
+    color: rgba(55, 41, 68, 0.836);
 }
 
 .dream p{
@@ -133,6 +132,7 @@
     font-weight: bold;
     border-radius: 5px;
     margin-left: 50px;
+    font-size: 25px;
 }
 
 
@@ -182,18 +182,20 @@
 
 .head-top h1{
     font-size: 55px;
-    font-family: Galada;
     line-height: 0;
     text-align: center;
+    color: rgba(55, 41, 68, 0.836);
 }
 
 .exprience-area h1{
     font-size: 35px;
+    color: rgba(55, 41, 68, 0.836);
 }
 
 .exprience-area h4{
     font-size: 20px;
     margin-bottom: 0;
+    color: rgba(55, 41, 68, 0.836);
 }
 
 .exprience-area p{

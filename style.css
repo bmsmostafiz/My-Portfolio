@@ -11,32 +11,35 @@
 
   #header-area{
       display: flex;
+      background-image: url(img/top-banner.png);
+      background-repeat: no-repeat;
+
   }
 
-  h1{
+  .welcome h1{
       font-size: 55px;
       font-family: Galada;
       line-height: 0;
   }
 
-  h3{
+  .welcome h3{
     font-size: 35px;
     font-family: Galada;
     line-height: 5px;
     margin-bottom: 70px;
   }
 
-  h3 span{
+  .welcome h3 span{
       color: rgba(95, 194, 15, 0.87);
   }
 
-  h4{
+  .welcome h4{
     font-size: 28px;
     font-family: Galada;
     line-height: 0;
   }
 
-  p{
+  .welcome p{
     font-size: 20px; 
   }
 
@@ -74,6 +77,63 @@
       padding-left: 5%;
       padding-right: 3%;
   }
+  .social-media, .fa-facebook-f{
+      color: #1877F2;
+  }
+  .social-media, .fa-linkedin-in{
+    color: #0A66C2;
+}
+.social-media, .fa-twitter{
+    color: #1DA1F2;
+}
+
+
+
+/*------------ Emd of Header area------------- */
+
+#dream{
+    display: flex;
+    margin-top: 50px;
+}
+
+.image-area{
+    width: 40%;
+    text-align: center;
+
+}
+.dream{
+    width: 60%;
+}
+
+.dream h1{
+    font-size: 55px;
+    font-family: Galada;
+    line-height: 0;
+}
+
+.dream h4{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.dream p{
+    font-size: 20px;
+    padding: 5px 0 30px 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.dream a{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(233, 190, 104, 0.815), rgb(114, 75, 151));
+    color: aliceblue;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
 
 
 

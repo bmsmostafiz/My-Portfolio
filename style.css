@@ -41,32 +41,48 @@
     text-align: justify;
   }
 
-  .hire-me{
-      text-decoration: none;
-      background-image: linear-gradient(rgba(233, 190, 104, 0.815), rgb(114, 75, 151));
-      padding: 10px 25px;
-      color: aliceblue;
-      font-weight: bold;
-      border-radius: 5px;
-      font-size: 25px;
+  .social-media{
+      text-align: center;
   }
 
-  ul{
-      width: 100%;
-      padding: 0;
-      text-align: right;
-  }
-
-  ul li {
+  .social-media ul{
       list-style: none;
-      display: inline-block;
   }
 
-  ul li a{
-      font-size: 40px;
-      padding: 5px;
+  .social-media li{
+    display: inline-block;
   }
 
+  .fab{
+    padding: 20px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 5px black;
+}
+
+.fa-facebook-f{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin-in{
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
 
 
   .welcome, .main-image{
@@ -75,15 +91,6 @@
       padding-left: 5%;
       padding-right: 3%;
   }
-  .social-media, .fa-facebook-f{
-      color: #1877F2;
-  }
-  .social-media, .fa-linkedin-in{
-    color: #0A66C2;
-}
-.social-media, .fa-twitter{
-    color: #1DA1F2;
-}
 
 
 

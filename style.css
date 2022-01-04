@@ -172,7 +172,7 @@
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-left: 10px solid;
-    border-image: linear-gradient(rgb(0,143,104), rgb(250,224,66));
+    border-image: linear-gradient(rgb(0,143,104), rgb(233, 203, 13));
     border-image-slice: 1;
     border-radius: 10px;
 }

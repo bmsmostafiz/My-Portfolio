@@ -61,7 +61,6 @@
   ul li {
       list-style: none;
       display: inline-block;
-
   }
 
   ul li a{
@@ -94,6 +93,9 @@
 #dream{
     display: flex;
     margin-top: 50px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .image-area{
@@ -118,9 +120,9 @@
 
 .dream p{
     font-size: 20px;
-    padding: 5px 0 30px 0;
+    padding: 5px 130px 30px 0;
     margin: 0;
-    justify-content: center;
+    text-align: justify;
 }
 
 .dream a{
@@ -131,9 +133,70 @@
     font-weight: bold;
     border-radius: 5px;
     margin-left: 50px;
-    
 }
 
 
+/*------------- End of dream area------------ */
+
+#exprience{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exprience-area{
+    display: flex;
+}
+
+.baby-web{
+    width: 40%;
+    margin-left: 5%;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(87, 70, 235), rgb(153, 49, 49));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
 
 
+.full-stack{
+    width: 40%;
+    margin-left: 5%;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+.head-top{
+    margin-bottom: 100px;
+}
+
+.head-top h1{
+    font-size: 55px;
+    font-family: Galada;
+    line-height: 0;
+    text-align: center;
+
+.exprience-area h1{
+    font-size: 35px;
+}
+
+.exprience-area h4{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.exprience-area p{
+    font-size: 20px;
+}
+
+/*__________ End of Exprience_________ */
